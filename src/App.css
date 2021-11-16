@@ -1,0 +1,21 @@
+
+.App {
+    color: var(--text-primary);
+    background-color: var(--background);
+    padding: 1em;
+    height: calc(100vh - 2em);
+
+    transition: color 0.5s ease-in-out,
+        background-color 0.5s ease-in-out;
+}
+
+button {
+    color: var(--text-primary);
+    background-color: var(--background);
+    border: 2px var(--text-primary) solid;
+    float: right;
+
+    transition: color 0.5s ease-in-out,
+        background-color 0.5s ease-in-out,
+        border-color 0.5s ease-in-out;
+}
