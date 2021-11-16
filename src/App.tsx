@@ -1,7 +1,7 @@
 import React from 'react';
 import useLocalStorage from 'use-local-storage';
 import Square from './components/square/Square';
-import './App.css';
+import './App.scoped.css';
 
 function App() {
   const isDarkModeDefault = window.matchMedia('(prefers-color-scheme: dark)').matches;
